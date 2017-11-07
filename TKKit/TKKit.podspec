@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
     s.name         = "TestLib"
     s.version      = “0.0.1”
-    s.ios.deployment_target = '7.0'
+    s.platform     = :ios, "7.0"
     s.summary      = "私有库测试demo"
     s.description  = <<-DESC     
                          threeLibTestDemo2 是一个用于测试的demo                                     
